@@ -16,9 +16,9 @@ public class ASUHelloWorldJavaFX extends Application {
     public void start(Stage primaryStage) {
     	System.out.println("ASU Hello World!");
     	System.out.println("It started!");
-        primaryStage.setTitle("Maila Pham Hello World Spring 2025");
+        primaryStage.setTitle("In class GitHub activity");
         Button btn = new Button();
-        btn.setText("Display: 'Maila says: Hello World!'");
+        btn.setText("Maila's second commit");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("Maila says: Hello World!");
